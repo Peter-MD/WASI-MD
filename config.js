@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="jastinmtewa@yahoo.com"
-global.location="Morogoro,Tanzania."
+global.email ="pessoka65@gmail.com"
+global.location="Douala, Cameroun."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -26,8 +26,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://gi
 
 
 global.devs = "237679672107" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923192173398";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "oui";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "237679672107";
 
 
 
@@ -39,7 +39,7 @@ global.gdbye = process.env.GOODBYE || "true";
 global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 5,
-global.disablepm = process.env.DISABLE_PM || "false",
+global.disablepm = process.env.DISABLE_PM || "true",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES|| "text",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
@@ -61,12 +61,13 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://myqr-43bb863fa5eb.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID|| =eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMk1paU9JZG5MSUllSUFyWHdxRzF1NFdBVDIyR2xENFVJL3NLMG80aDRuWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTi8xUkVlNXJXd0RNbFhNdW1naVdIbHdTdzlJRTZFemJGbjl4RGFkd3ZoRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPSEFza0pCU0tiVGVyTFdQUWc4NEZKUzQ4b3BvSXNSek5ocklPcGtZV1ZRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRNXA1QXJ1STU4RjFVcXBNQU5pdHpINmVtWXlFZVdNNTZDd2xqQkFPWkZZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFHNklRYUFudjE3ejdQSDdwdHg5SndLZlJoOXhNNEF4Y0lWNFhpajMyMTA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjliNzN4MWFKUlBTSUxEMTRIWE1zcTM4ZXgrejlzU0Q0TG9YalJ6MWUySDg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS0R4ek0vaTFLOTcvWVdEc3dlL1duY01XUTB4bUQ0VE5UdC9vaVh0a3owaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaE1ucUlxcUxLandOMWhJeFljQ3dIRHlzSStPWG1iVm90N2Z3WmRIOFFrOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im5DVXZDVkhqQlVjMStUYzUxdFQxelBnY2hxM0luWU45RmREL1FEOXVQeWVSbVpTT2NpSGY1dkRHdmpNTFo4bFpRSGtDTFovSkRPNUgya1J0aUd0WGlRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTczLCJhZHZTZWNyZXRLZXkiOiJ3dmZyK0FRUzBJc3c0eVhQcERBbWNSYVphN1JqRGlYVEZJMGROLzN5SHcwPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJneS1EejVQWVNnR2VoRWF4Y2VCMXBnIiwicGhvbmVJZCI6Ijc1OWY0NGQ2LWY5YTctNDQxMi04YzlhLWFkMTcxZmI0MDVmMSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOYzhvaFhnUlE5NGsrMmlOdzM2U2o0V3U5OEk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNlVDb2Y0R0FiYXdtWm9EMEphTkM1NllYTlpvPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Ilg5RURQM0U5IiwibWUiOnsiaWQiOiIyMzc2Nzk2NzIxMDc6NDFAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiUGV0ZXIgZXNzb2thXl9eIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMM1NxYThCRUtlSHFiUUdHQTRnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJSZFlyQkowMzJEZW9NaVVtQURYMXA2YzFLakhZVmI2TGhPOGxJMlN3SkFRPSIsImFjY291bnRTaWduYXR1cmUiOiJaeXZtWDA0TTg0NThLQk9KeWMrbjdDSlRCUUZEOXpuWGE2M1cyNktEekpGQnVDUUVkVHFwdlJJTHRBd2FKVXVBRWttMTl4ZWNtSUp0emN6NWYxZ1dCUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoicEFCRGN5VUpGaWRrNTZyQmhyNDc0YTd4SkpDZFg1VXdkeWphVlFGRE9UaForSGMyd3ZzdG5ZanVzb25mQWVMb2YrK0FpTjRzYlVVM0Vxa2FUMXF0aWc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzc2Nzk2NzIxMDc6NDFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVVhXS3dTZE45ZzNxRElsSmdBMTlhZW5OU294MkZXK2k0VHZKU05rc0NRRSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDMzNzMzM30=" ;
+global.SESSION_ID = process.env.SESSION_ID || =eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMk1paU9JZG5MSUllSUFyWHdxRzF1NFdBVDIyR2xENFVJL3NLMG80aDRuWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTi8xUkVlNXJXd0RNbFhNdW1naVdIbHdTdzlJRTZFemJGbjl4RGFkd3ZoRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPSEFza0pCU0tiVGVyTFdQUWc4NEZKUzQ4b3BvSXNSek5ocklPcGtZV1ZRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRNXA1QXJ1STU4RjFVcXBNQU5pdHpINmVtWXlFZVdNNTZDd2xqQkFPWkZZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkFHNklRYUFudjE3ejdQSDdwdHg5SndLZlJoOXhNNEF4Y0lWNFhpajMyMTA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjliNzN4MWFKUlBTSUxEMTRIWE1zcTM4ZXgrejlzU0Q0TG9YalJ6MWUySDg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS0R4ek0vaTFLOTcvWVdEc3dlL1duY01XUTB4bUQ0VE5UdC9vaVh0a3owaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaE1ucUlxcUxLandOMWhJeFljQ3dIRHlzSStPWG1iVm90N2Z3WmRIOFFrOD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im5DVXZDVkhqQlVjMStUYzUxdFQxelBnY2hxM0luWU45RmREL1FEOXVQeWVSbVpTT2NpSGY1dkRHdmpNTFo4bFpRSGtDTFovSkRPNUgya1J0aUd0WGlRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTczLCJhZHZTZWNyZXRLZXkiOiJ3dmZyK0FRUzBJc3c0eVhQcERBbWNSYVphN1JqRGlYVEZJMGROLzN5SHcwPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJneS1EejVQWVNnR2VoRWF4Y2VCMXBnIiwicGhvbmVJZCI6Ijc1OWY0NGQ2LWY5YTctNDQxMi04YzlhLWFkMTcxZmI0MDVmMSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOYzhvaFhnUlE5NGsrMmlOdzM2U2o0V3U5OEk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNlVDb2Y0R0FiYXdtWm9EMEphTkM1NllYTlpvPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Ilg5RURQM0U5IiwibWUiOnsiaWQiOiIyMzc2Nzk2NzIxMDc6NDFAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiUGV0ZXIgZXNzb2thXl9eIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMM1NxYThCRUtlSHFiUUdHQTRnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJSZFlyQkowMzJEZW9NaVVtQURYMXA2YzFLakhZVmI2TGhPOGxJMlN3SkFRPSIsImFjY291bnRTaWduYXR1cmUiOiJaeXZtWDA0TTg0NThLQk9KeWMrbjdDSlRCUUZEOXpuWGE2M1cyNktEekpGQnVDUUVkVHFwdlJJTHRBd2FKVXVBRWttMTl4ZWNtSUp0emN6NWYxZ1dCUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoicEFCRGN5VUpGaWRrNTZyQmhyNDc0YTd4SkpDZFg1VXdkeWphVlFGRE9UaForSGMyd3ZzdG5ZanVzb25mQWVMb2YrK0FpTjRzYlVVM0Vxa2FUMXF0aWc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzc2Nzk2NzIxMDc6NDFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVVhXS3dTZE45ZzNxRElsSmdBMTlhZW5OU294MkZXK2k0VHZKU05rc0NRRSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDMzNzMzM30=" ;
 
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Venocyber-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || ".
+    ", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Venocyber-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time *.*/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
@@ -79,8 +80,8 @@ module.exports = {
   ownername:process.env.OWNER_NAME|| "It's 𝗜𝗧𝗫𝗫𝗪𝗔𝗦𝗜",
 
 
-  errorChat : process.env.ERROR_CHAT || "",
-  KOYEB_API : process.env.KOYEB_API  || "false",
+  errorChat : process.env.ERROR_CHAT || "true",
+  KOYEB_API : process.env.KOYEB_API  || "true",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "neLbXXrp8bSDcohnp1CW5UEa",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
